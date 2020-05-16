@@ -26,6 +26,12 @@ git branch <nameOfBranch>:
 git checkout <nameOfBranch>:
     will switch to branch <nameOfBranch>
 
+git merge <nameOfBranch>:
+    merges branch <nameOfBranch> to master
+
+git remote:
+    lists remote repositories
+
 
 .gitignore file:
     a file that contains the names of all file to be ignored by git
