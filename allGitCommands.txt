@@ -1,65 +1,68 @@
-git status:
+git status
     shows what is being tracked, what is in the staging area and other information.
     also shows what changes have been made.
 
-git add <file>:
+git add <file>
     adds <file> form 'Changes not staged for commit:' to 'Changes to be committed:'.
 
-git add .:
+git add .
     adds all files from 'Changes not staged for commit:' to 'Changes to be committed:'.
 
-git rm --cached <file>:
+git rm --cached <file>
     removes <file> from stage
 
-git commit:
+git commit
     will take you to git editing area where you can specify what to commit
 
 git commit -m '<a message>'
     commits all in staged and adds a message
 
 git restore <file>:
-    discard changes in working directory
+    discard changes in working directory in <file>
 
-git branch <nameOfBranch>:
+git checkout -- .
+    reverts all changes that were not committed
+
+git branch <nameOfBranch>
     create a new branch <nameOfBranch>
 
-git checkout <nameOfBranch>:
+git checkout <nameOfBranch>
     will switch to branch <nameOfBranch>
 
-git merge <nameOfBranch>:
+git merge <nameOfBranch>
     merges branch <nameOfBranch> to master
 
-git log:
+git log
     displays previous versions of the files
 
-git checkout <commit_id_hash>:
+git checkout <commit_id_hash>
     looks at previous code of the commit with the hash id <commit_id_hash>
 
-git reset --hard <commit_id_hash>:
+git reset --hard <commit_id_hash>
     returns to previous version of code with the hash id <commit_id_hash>
 
-git remote:
+git remote
     lists remote repositories
 
-git push:
+git push
     pushes local repositories on to GitHub
 
-git clone <GitHub Clone Link>:
+git clone <GitHub Clone Link>
     clones Github Repository
 
-git pull:
+git pull
     updates local repository woth changes made to GitHub remote repository
 
-git fetch --all:
+git fetch --all
     fetches all registered remotes and their branches
 
 
-.gitignore file:
+.gitignore file
     a file that contains the names of all file to be ignored by git
     commands include:
-        file.txt:
+        file.txt
             will ignore the single file file.txt
-        /dir:
+        /dir
             will ignore the directory dir and all of its contents
-        *.txt:
+        *.txt
             will ignore all files of the type (eg .txt)
