@@ -38,7 +38,8 @@ git push:
 git clone <GitHub Clone Link>:
     clones Github Repository
 
-
+git pull:
+    updates local repository woth changes made to GitHub remote repository
 
 
 .gitignore file:
