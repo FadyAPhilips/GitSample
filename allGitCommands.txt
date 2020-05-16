@@ -50,6 +50,9 @@ git clone <GitHub Clone Link>:
 git pull:
     updates local repository woth changes made to GitHub remote repository
 
+git fetch --all:
+    fetches all registered remotes and their branches
+
 
 .gitignore file:
     a file that contains the names of all file to be ignored by git
