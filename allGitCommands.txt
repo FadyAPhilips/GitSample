@@ -29,6 +29,15 @@ git checkout <nameOfBranch>:
 git merge <nameOfBranch>:
     merges branch <nameOfBranch> to master
 
+git log:
+    displays previous versions of the files
+
+git checkout <commit_id_hash>:
+    looks at previous code of the commit with the hash id <commit_id_hash>
+
+git reset --hard <commit_id_hash>:
+    returns to previous version of code with the hash id <commit_id_hash>
+
 git remote:
     lists remote repositories
 
