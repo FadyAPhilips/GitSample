@@ -32,6 +32,14 @@ git merge <nameOfBranch>:
 git remote:
     lists remote repositories
 
+git push:
+    pushes local repositories on to GitHub
+
+git clone <GitHub Clone Link>:
+    clones Github Repository
+
+
+
 
 .gitignore file:
     a file that contains the names of all file to be ignored by git
