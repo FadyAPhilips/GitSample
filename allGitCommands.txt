@@ -1,0 +1,24 @@
+git status:
+    shows what is being tracked, what is in the staging area and other information.
+    also shows what changes have been made.
+
+git add <file>:
+    adds <file> form 'Changes not staged for commit:' to 'Changes to be committed:'.
+
+git add .:
+    adds all files from 'Changes not staged for commit:' to 'Changes to be committed:'.
+
+git rm --cached <file>:
+    removes <file> from stage
+
+git commit:
+    will take you to git editing area where you can specify what to commit
+
+git commit -a
+    commits all in staged
+
+git commit -m '<a message>'
+    commits all in staged and adds a message
+
+git restore <file>:
+    discard changes in working directory
