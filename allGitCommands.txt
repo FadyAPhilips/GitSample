@@ -14,11 +14,22 @@ git rm --cached <file>:
 git commit:
     will take you to git editing area where you can specify what to commit
 
-git commit -a
-    commits all in staged
-
 git commit -m '<a message>'
     commits all in staged and adds a message
 
 git restore <file>:
     discard changes in working directory
+
+git checkout <nameOfBranch>:
+    will switch to branch <nameOfBranch>
+
+
+.gitignore file:
+    a file that contains the names of all file to be ignored by git
+    commands include:
+        file.txt:
+            will ignore the single file file.txt
+        /dir:
+            will ignore the directory dir and all of its contents
+        *.txt:
+            will ignore all files of the type (eg .txt)
