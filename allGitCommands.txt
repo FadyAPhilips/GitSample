@@ -20,6 +20,9 @@ git commit -m '<a message>'
 git restore <file>:
     discard changes in working directory
 
+git branch <nameOfBranch>:
+    create a new branch <nameOfBranch>
+
 git checkout <nameOfBranch>:
     will switch to branch <nameOfBranch>
 
